@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav
       className={
-        "fixed w-full flex justify-between items-center h-auto px-5 z-50 py-3 transition-colors duration-500" +
+        "fixed w-full flex justify-between items-center h-auto px-5 z-50 py-3 transition-colors duration-500 " +
         (navColor && " bg-orange-100/80 shadow-md")
       }
     >
